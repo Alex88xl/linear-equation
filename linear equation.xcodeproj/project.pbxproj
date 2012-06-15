@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC801CA158B61E0006EB5ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC801C9158B61E0006EB5ED /* UIKit.framework */; };
+		ADC801CC158B61E0006EB5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC801CB158B61E0006EB5ED /* Foundation.framework */; };
+		ADC801CE158B61E0006EB5ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC801CD158B61E0006EB5ED /* CoreGraphics.framework */; };
+		ADC801D4158B61E0006EB5ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC801D2158B61E0006EB5ED /* InfoPlist.strings */; };
+		ADC801D6158B61E0006EB5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC801D5158B61E0006EB5ED /* main.m */; };
+		ADC801DA158B61E0006EB5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC801D9158B61E0006EB5ED /* AppDelegate.m */; };
+		ADC801DD158B61E0006EB5ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC801DB158B61E0006EB5ED /* MainStoryboard.storyboard */; };
+		ADC801E0158B61E0006EB5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC801DF158B61E0006EB5ED /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADC801C5158B61E0006EB5ED /* linear equation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "linear equation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC801C9158B61E0006EB5ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADC801CB158B61E0006EB5ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADC801CD158B61E0006EB5ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADC801D1158B61E0006EB5ED /* linear equation-Info.plist */ = {isa = PBXFileReference; path = "linear equation-Info.plist"; sourceTree = "<group>"; };
+		ADC801D3158B61E0006EB5ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADC801D5158B61E0006EB5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC801D7158B61E0006EB5ED /* linear equation-Prefix.pch */ = {isa = PBXFileReference; path = "linear equation-Prefix.pch"; sourceTree = "<group>"; };
+		ADC801D8158B61E0006EB5ED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADC801D9158B61E0006EB5ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADC801DC158B61E0006EB5ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ADC801DE158B61E0006EB5ED /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ADC801DF158B61E0006EB5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC801C2158B61E0006EB5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC801CA158B61E0006EB5ED /* UIKit.framework in Frameworks */,
+				ADC801CC158B61E0006EB5ED /* Foundation.framework in Frameworks */,
+				ADC801CE158B61E0006EB5ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC801BA158B61E0006EB5ED = {
+			isa = PBXGroup;
+			children = (
+				ADC801CF158B61E0006EB5ED /* linear equation */,
+				ADC801C8158B61E0006EB5ED /* Frameworks */,
+				ADC801C6158B61E0006EB5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC801C6158B61E0006EB5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC801C5158B61E0006EB5ED /* linear equation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC801C8158B61E0006EB5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC801C9158B61E0006EB5ED /* UIKit.framework */,
+				ADC801CB158B61E0006EB5ED /* Foundation.framework */,
+				ADC801CD158B61E0006EB5ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC801CF158B61E0006EB5ED /* linear equation */ = {
+			isa = PBXGroup;
+			children = (
+				ADC801D8158B61E0006EB5ED /* AppDelegate.h */,
+				ADC801D9158B61E0006EB5ED /* AppDelegate.m */,
+				ADC801DB158B61E0006EB5ED /* MainStoryboard.storyboard */,
+				ADC801DE158B61E0006EB5ED /* ViewController.h */,
+				ADC801DF158B61E0006EB5ED /* ViewController.m */,
+				ADC801D0158B61E0006EB5ED /* Supporting Files */,
+			);
+			path = "linear equation";
+			sourceTree = "<group>";
+		};
+		ADC801D0158B61E0006EB5ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC801D1158B61E0006EB5ED /* linear equation-Info.plist */,
+				ADC801D2158B61E0006EB5ED /* InfoPlist.strings */,
+				ADC801D5158B61E0006EB5ED /* main.m */,
+				ADC801D7158B61E0006EB5ED /* linear equation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC801C4158B61E0006EB5ED /* linear equation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC801E3158B61E0006EB5ED /* Build configuration list for PBXNativeTarget "linear equation" */;
+			buildPhases = (
+				ADC801C1158B61E0006EB5ED /* Sources */,
+				ADC801C2158B61E0006EB5ED /* Frameworks */,
+				ADC801C3158B61E0006EB5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linear equation";
+			productName = "linear equation";
+			productReference = ADC801C5158B61E0006EB5ED /* linear equation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC801BC158B61E0006EB5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alex Wrede";
+			};
+			buildConfigurationList = ADC801BF158B61E0006EB5ED /* Build configuration list for PBXProject "linear equation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC801BA158B61E0006EB5ED;
+			productRefGroup = ADC801C6158B61E0006EB5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC801C4158B61E0006EB5ED /* linear equation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC801C3158B61E0006EB5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC801D4158B61E0006EB5ED /* InfoPlist.strings in Resources */,
+				ADC801DD158B61E0006EB5ED /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC801C1158B61E0006EB5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC801D6158B61E0006EB5ED /* main.m in Sources */,
+				ADC801DA158B61E0006EB5ED /* AppDelegate.m in Sources */,
+				ADC801E0158B61E0006EB5ED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC801D2158B61E0006EB5ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC801D3158B61E0006EB5ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADC801DB158B61E0006EB5ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC801DC158B61E0006EB5ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC801E1158B61E0006EB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADC801E2158B61E0006EB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC801E4158B61E0006EB5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "linear equation/linear equation-Prefix.pch";
+				INFOPLIST_FILE = "linear equation/linear equation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADC801E5158B61E0006EB5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "linear equation/linear equation-Prefix.pch";
+				INFOPLIST_FILE = "linear equation/linear equation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC801BF158B61E0006EB5ED /* Build configuration list for PBXProject "linear equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC801E1158B61E0006EB5ED /* Debug */,
+				ADC801E2158B61E0006EB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC801E3158B61E0006EB5ED /* Build configuration list for PBXNativeTarget "linear equation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC801E4158B61E0006EB5ED /* Debug */,
+				ADC801E5158B61E0006EB5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC801BC158B61E0006EB5ED /* Project object */;
+}
