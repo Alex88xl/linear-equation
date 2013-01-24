@@ -12,6 +12,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+		UIStoryboard *storyBoard;
+		
+		CGSize result = [[UIScreen mainScreen] bounds].size;
+		CGFloat scale = [UIScreen mainScreen].scale;
+		result = CGSizeMake(result.width * scale, result.height * scale);
+		
+		if(result.height == 1136){
+			storyBoard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+			UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+			[self.window setRootViewController:initViewController];
+		}
+	}
     // Override point for customization after application launch.
     return YES;
 }
@@ -35,6 +48,17 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+	
+	//AlertView zur information
+	/*UIAlertView *alertViewInformation = [[UIAlertView alloc]
+										 initWithTitle:@"Bitte beachten!"
+										 message:@"Drücken Sie auf Information, um zu erfahren, wie Sie mit dieser App umgehen"
+										 delegate:self
+										 cancelButtonTitle:nil
+										 otherButtonTitles:@"OK, I've read!", nil];
+	
+	[alertViewInformation show];*/
+	
 	// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
