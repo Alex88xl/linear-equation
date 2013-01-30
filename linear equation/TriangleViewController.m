@@ -13,7 +13,7 @@
 @end
 
 @implementation TriangleViewController
-@synthesize wertA;
+/*@synthesize wertA;
 @synthesize wertB;
 @synthesize wertC;
 @synthesize variableX;
@@ -21,7 +21,7 @@
 @synthesize variableZ;
 @synthesize loesungA;
 @synthesize loesungB;
-@synthesize loesungC;
+@synthesize loesungC;*/
 
 //initialisierung der gesuchten Werte
 float a,b,c = 0;
@@ -63,9 +63,9 @@ float x,y,z = 0;
 - (IBAction)loesungRechnenUndAnzeigen:(id)sender
 {
 	//Auslesen der gegebenen Werte aus den Textfeldern
-	x = [variableX.text floatValue];
-	y = [variableY.text floatValue];
-	z = [variableZ.text floatValue];
+	x = [_variableX.text floatValue];
+	y = [_variableY.text floatValue];
+	z = [_variableZ.text floatValue];
 	
 	//Zuweisung der gesuchten Werte mit den Ergebnissen
 	a = -x/2 +y/2 +z/2 +x -y;
@@ -73,13 +73,13 @@ float x,y,z = 0;
 	c = -x/2 +y/2 +z/2      ;
 	
 	//Eintragen der Werte in das Vorgesehene Feld
-	loesungA.text = [NSString stringWithFormat:@"%.2f",a];
-	loesungB.text = [NSString stringWithFormat:@"%.2f",b];
-	loesungC.text = [NSString stringWithFormat:@"%.2f",c];
+	_loesungA.text = [NSString stringWithFormat:@"%.2f",a];
+	_loesungB.text = [NSString stringWithFormat:@"%.2f",b];
+	_loesungC.text = [NSString stringWithFormat:@"%.2f",c];
 	
 	//Eintragen der Werte in die Lösungssumme
-	wertA.text = [NSString stringWithFormat:@"%.2f",a];
-	wertB.text = [NSString stringWithFormat:@"%.2f",b];
-	wertC.text = [NSString stringWithFormat:@"%.2f",c];
+	_wertA.text = [NSString stringWithFormat:@"%.2f",a];
+	_wertB.text = [NSString stringWithFormat:@"%.2f",b];
+	_wertC.text = [NSString stringWithFormat:@"%.2f",c];
 }
 @end
