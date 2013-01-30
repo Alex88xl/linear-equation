@@ -61,6 +61,9 @@
 	adView.delegate = self;
 	self.bannerIsVisible = NO;
 	[super viewDidLoad];
+	
+	self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:
+                                 [UIImage imageNamed:@"Default@2x"]];
 }
 
 - (void)didReceiveMemoryWarning

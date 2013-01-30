@@ -14,12 +14,12 @@
 
 @implementation QuadratischViewController
 
-@synthesize numberA_Q;
+/*@synthesize numberA_Q;
 @synthesize numberB_Q;
 @synthesize numberC_Q;
 @synthesize sp_Q;
 @synthesize dis_Q;
-@synthesize ns_Q;
+@synthesize ns_Q;*/
 
 
 //variablen deklerieren
@@ -62,9 +62,9 @@ float d = 0;
 
 - (IBAction)loesen_Q:(id)sender
 {
-	numA_Q = [numberA_Q.text floatValue];
-	numB_Q = [numberB_Q.text floatValue];
-	numC_Q = [numberC_Q.text floatValue];
+	numA_Q = [_numberA_Q.text floatValue];
+	numB_Q = [_numberB_Q.text floatValue];
+	numC_Q = [_numberC_Q.text floatValue];
 	
 	d  = numB_Q * numB_Q - 4 * numA_Q * numC_Q;
 	
@@ -73,9 +73,9 @@ float d = 0;
 	x1 = (-numB_Q + sqrtf(d)) / 2 / numA_Q;
 	x2 = (-numB_Q - sqrtf(d)) / 2 / numA_Q;
 	
-	sp_Q.text  = [NSString stringWithFormat:@" %.2f | %.2f ", x_Q, y_Q];
-	dis_Q.text = [NSString stringWithFormat:@" %.2f ", d];
-	ns_Q.text  = [NSString stringWithFormat:@" %.2f | %.2f ", x1, x2];
+	_sp_Q.text  = [NSString stringWithFormat:@" %.2f | %.2f ", x_Q, y_Q];
+	_dis_Q.text = [NSString stringWithFormat:@" %.2f ", d];
+	_ns_Q.text  = [NSString stringWithFormat:@" %.2f | %.2f ", x1, x2];
 }
 
 - (IBAction)backButton_Q:(id)sender
