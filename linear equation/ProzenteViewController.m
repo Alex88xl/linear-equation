@@ -14,12 +14,12 @@
 
 @implementation ProzenteViewController
 
-/*@synthesize betragP;
+@synthesize betragP;
 @synthesize prozentP;
 @synthesize mwstP_Auswahl;
 @synthesize zuZahlenP;
 @synthesize mwstP_19;
-@synthesize verdienstP;*/
+@synthesize verdienstP;
 
 //variablen
 NSString *mwst_p_var_string =@"";
@@ -64,11 +64,11 @@ NSUserDefaults *mwst_userDefault_USER;
 
 - (IBAction)loesenP:(id)sender
 {
-	if (_mwstP_Auswahl.selectedSegmentIndex == 0)
+	if (mwstP_Auswahl.selectedSegmentIndex == 0)
 	{
 		mwst_p_var = 19;
 	}
-	else if (_mwstP_Auswahl.selectedSegmentIndex == 1)
+	else if (mwstP_Auswahl.selectedSegmentIndex == 1)
 	{
 		mwst_p_var = 7;
 	}
@@ -76,16 +76,16 @@ NSUserDefaults *mwst_userDefault_USER;
 	//Beachten!!!!!
 	//mwst_p_var = [mwst_p_var_string floatValue];
 	
-	betrag_p = [_betragP.text floatValue];
-	prozent_p = [_prozentP.text floatValue];
+	betrag_p = [betragP.text floatValue];
+	prozent_p = [prozentP.text floatValue];
 	
 	zuZahlen_p = betrag_p - (betrag_p / 100 * prozent_p);
 	mwst_p = betrag_p - (betrag_p * 100 / (100 + mwst_p_var));
 	verdienst_p = zuZahlen_p - mwst_p;
 	
-	_zuZahlenP.text = [NSString stringWithFormat:@" %.2f € ", zuZahlen_p];
-	_mwstP_19.text = [NSString stringWithFormat:@" %.2f € Mwst", mwst_p];
-	_verdienstP.text = [NSString stringWithFormat:@" %.2f €", verdienst_p];
+	zuZahlenP.text = [NSString stringWithFormat:@" %.2f € ", zuZahlen_p];
+	mwstP_19.text = [NSString stringWithFormat:@" %.2f € Mwst", mwst_p];
+	verdienstP.text = [NSString stringWithFormat:@" %.2f €", verdienst_p];
 }
 
 @end
