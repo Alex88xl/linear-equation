@@ -9,6 +9,6 @@ Price in AppStore: 1.79€
 
 All rigths reserved ®
 Copyrigth by Sintram ©
-===============
 
 mathmatix
+––––––––––––––––––––––––––
