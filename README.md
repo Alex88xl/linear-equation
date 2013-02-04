@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BUILD 2.1
 Version 1.5
 name: mathmatix
@@ -12,3 +13,11 @@ Copyrigth by Sintram ©
 
 mathmatix
 ––––––––––––––––––––––––––
+=======
+© Sintram
+date 2013.01.24
+mathmatix
+===============
+
+mathmatix version 1.5
+>>>>>>> Version 2.0 Build 1.0

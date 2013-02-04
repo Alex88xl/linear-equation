@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD1DC738158F876300832A69 /* Hintergrund---linear-equati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hintergrund---linear-equati.png"; path = "../Hintergrund---linear-equati.png"; sourceTree = "<group>"; };
+		AD1DC738158F876300832A69 /* Hintergrund---linear-equati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hintergrund---linear-equati.png"; sourceTree = "<group>"; };
 		AD1DC73A158F8FC400832A69 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AD1DC73B158F8FC400832A69 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD1DC74C1590FBD200832A69 /* ProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessViewController.h; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		ADB16EC116A3376900698CC9 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard_4.storyboard; sourceTree = "<group>"; };
 		ADC05BC71612014500C902E2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		ADC05BC81612014500C902E2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		ADC05BCB161210E700C902E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADC05BCB161210E700C902E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		ADC801C5158B61E0006EB5ED /* mathmatix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathmatix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC801C9158B61E0006EB5ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADC801CB158B61E0006EB5ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,14 +61,14 @@
 		ADC801DF158B61E0006EB5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ADC801E6158B6F22006EB5ED /* FlipSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipSiteViewController.h; sourceTree = "<group>"; };
 		ADC801E7158B6F22006EB5ED /* FlipSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipSiteViewController.m; sourceTree = "<group>"; };
-		ADFD8F19161A371600FC974A /* mathmatix_Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mathmatix_Logo1.png; path = ../mathmatix_Logo1.png; sourceTree = "<group>"; };
+		ADFD8F19161A371600FC974A /* mathmatix_Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mathmatix_Logo1.png; sourceTree = "<group>"; };
 		ADFF9FED16503E8E001D2A44 /* QuadratischViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadratischViewController.h; sourceTree = "<group>"; };
 		ADFF9FEE16503E8E001D2A44 /* QuadratischViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadratischViewController.m; sourceTree = "<group>"; };
-		ADFF9FF11652786B001D2A44 /* mathmatix_Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mathmatix_Logo2.png; path = ../mathmatix_Logo2.png; sourceTree = "<group>"; };
-		ADFF9FF316527876001D2A44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		ADFF9FF51652787F001D2A44 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		ADFFA005165284F1001D2A44 /* mathmatix_icon_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mathmatix_icon_1_1.png; path = ../mathmatix_icon_1_1.png; sourceTree = "<group>"; };
-		ADFFA007165284FA001D2A44 /* mathmatix_icon_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mathmatix_icon_2_1.png; path = ../mathmatix_icon_2_1.png; sourceTree = "<group>"; };
+		ADFF9FF11652786B001D2A44 /* mathmatix_Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mathmatix_Logo2.png; sourceTree = "<group>"; };
+		ADFF9FF316527876001D2A44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ADFF9FF51652787F001D2A44 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ADFFA005165284F1001D2A44 /* mathmatix_icon_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mathmatix_icon_1_1.png; sourceTree = "<group>"; };
+		ADFFA007165284FA001D2A44 /* mathmatix_icon_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mathmatix_icon_2_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,14 @@
 		ADC801BA158B61E0006EB5ED = {
 			isa = PBXGroup;
 			children = (
+				ADFF9FF51652787F001D2A44 /* Default.png */,
+				ADFF9FF316527876001D2A44 /* Default@2x.png */,
+				ADC05BCB161210E700C902E2 /* Default-568h@2x.png */,
+				AD1DC738158F876300832A69 /* Hintergrund---linear-equati.png */,
+				ADFD8F19161A371600FC974A /* mathmatix_Logo1.png */,
+				ADFF9FF11652786B001D2A44 /* mathmatix_Logo2.png */,
+				ADFFA005165284F1001D2A44 /* mathmatix_icon_1_1.png */,
+				ADFFA007165284FA001D2A44 /* mathmatix_icon_2_1.png */,
 				ADC801CF158B61E0006EB5ED /* linear equation */,
 				ADC801C8158B61E0006EB5ED /* Frameworks */,
 				ADC801C6158B61E0006EB5ED /* Products */,
@@ -143,14 +151,6 @@
 		ADC801D0158B61E0006EB5ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ADFF9FF51652787F001D2A44 /* Default.png */,
-				ADFF9FF316527876001D2A44 /* Default@2x.png */,
-				ADC05BCB161210E700C902E2 /* Default-568h@2x.png */,
-				AD1DC738158F876300832A69 /* Hintergrund---linear-equati.png */,
-				ADFD8F19161A371600FC974A /* mathmatix_Logo1.png */,
-				ADFF9FF11652786B001D2A44 /* mathmatix_Logo2.png */,
-				ADFFA005165284F1001D2A44 /* mathmatix_icon_1_1.png */,
-				ADFFA007165284FA001D2A44 /* mathmatix_icon_2_1.png */,
 				ADC801D1158B61E0006EB5ED /* linear equation-Info.plist */,
 				ADC801D2158B61E0006EB5ED /* InfoPlist.strings */,
 				ADC801D5158B61E0006EB5ED /* main.m */,
